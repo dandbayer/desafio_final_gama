@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>Cadastro de curso</H1>
+    <h2>Preencha os campos abaixo para adicionar um novo curso:</h2>
+    <form>
+      <label for="ID">ID:</label>  
+      <input type="text" id="ID">
+      <label for="titulo">Título:</label>  
+      <input type="text" id="titulo">
+      <label for="descricao">Descrição:</label>  
+      <input type="text" id="descricao">
+      <label for="imagem">Endereço da imagem:</label>  
+      <input type="text" id="imagem">
+      <label for="nomeProf">Nome do professor:</label>  
+      <input type="text" id="nomeProf">
+      <label for="listaAulas">Arquivo aulas:</label>   
+      <input type="text" id="listaAulas">
+      <label for="data">Data de criação</label> 
+      <input type="text" id="data">
+      <button type="button" class="button" onclick="cadastraCurso()">Cadastrar</button>
+    </form>
+
+    <!--Tabela com os cursos-->
+
+  <section>
+    <table>
+        <thead>
+            <tr>
+            <th>ID</th>
+            <th>Título</th>
+            <th>Descrição</th>
+            <th>Imagem</th>
+            <th>Nome do professor</th>
+            <th>Lista de aulas</th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+        </table>
+    </section>
+    <script src="./scripts_html.js"></script>
+</body>
+<footer>
+    "Continuarei tentando!" - Dandara Bayer em 28/11/2021
+</footer>
+</html>
+
+
+
+
+
